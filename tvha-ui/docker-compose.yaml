@@ -1,0 +1,15 @@
+name: tvhaUI
+services:
+    tvha-dev:
+        ports:
+            - 12924:5000
+        volumes:
+            - /home/kg/Desktop/python/flashDev/app:/app
+        image: tvha-dev
+
+
+
+
+
+
+
