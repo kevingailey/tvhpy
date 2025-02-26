@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 # TVHeadend configuration
 TVHEADEND_URL = 'https://www.kg8.org'  # Replace with your TVHeadend URL
-USERNAME = 'plex'               # Replace with your TVHeadend username
-PASSWORD = '8675867586758675'               # Replace with your TVHeadend password
+USERNAME = 'xx'               # Replace with your TVHeadend username
+PASSWORD = 'xx'               # Replace with your TVHeadend password
 @app.route('/discover.json')
 def discover():
     discoverData = {
